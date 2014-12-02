@@ -41,7 +41,7 @@
 				<g:each in="${authorInstanceList}" status="i" var="authorInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${authorInstance.id}">${fieldValue(bean: authorInstance, field: "address")}</g:link></td>
+						<td><g:link action="show" id="${authorInstance.id}">${fieldValue(bean: authorInstance.address, field: "city")}</g:link></td>
 					
 						<td><g:formatDate date="${authorInstance.dob}" /></td>
 					
