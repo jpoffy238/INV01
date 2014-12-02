@@ -4,7 +4,7 @@ class Book {
 	String title
 	static hasOne = [author: Author]
 	String isbn
-	String printDate
+	Date printDate
     static constraints = {
 			
     }

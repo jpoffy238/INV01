@@ -11,7 +11,7 @@ class Person {
 	
 	
     static constraints = {
-		
+		dod(null)
     }
 	static mapping = {
 		table 'person'
