@@ -1,4 +1,4 @@
-sitemesh>
+<sitemesh>
     <page-parsers>
             <parser content-type="text/html"
 	                class="org.codehaus.groovy.grails.web.sitemesh.GrailsHTMLPageParser" />
